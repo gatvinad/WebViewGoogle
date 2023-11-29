@@ -25,5 +25,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Assemble
+      run: ./gradlew assemble
     - name: anu2
       run: ls -lh
